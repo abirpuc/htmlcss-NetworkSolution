@@ -168,8 +168,14 @@ main{
     width: 50%;
 }
 
+#control-img{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
 #control-img img{
-    width: 70%;
+    width: 60%;
 }
 
 #control-description{
