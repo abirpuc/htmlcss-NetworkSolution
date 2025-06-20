@@ -63,3 +63,43 @@ ul li a:hover{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
+main{
+    padding: 0 100px;
+}
+
+.banner-section{
+    height: 645px;
+    margin-top: 20px;
+    padding:10px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(207deg,#def2fe,#fcd4f6);
+    border-radius: 20px;
+}
+
+#banner-title{
+    font-size: 46px;
+    font-weight: 900;
+    font-family: urbanist;
+}
+
+#special-text{
+    color: #f34a87;
+}
+
+.banner-description{
+    padding: 30px 0;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.buttons{
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    background: linear-gradient(90deg,#f756a3, #f04276);
+    color: #fff;
+    font-weight: 700;
+}
